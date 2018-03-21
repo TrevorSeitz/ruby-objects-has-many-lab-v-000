@@ -6,6 +6,10 @@ class Post
     @name = name
     @author = author || nil
   end
-  
+
+  def author_name
+
+  end
+
 
 end
