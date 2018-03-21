@@ -14,9 +14,6 @@ class Post
       @author.name
     end
 
-    def title
-
-    end
   end
 
 
