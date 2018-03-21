@@ -8,10 +8,10 @@ class Post
   end
 
   def author_name
-    if @artist = nil
-      nil
+    if @author = nil
+      return nil
     else
-      @artist.name
+      @author.name
     end
 
     def title
