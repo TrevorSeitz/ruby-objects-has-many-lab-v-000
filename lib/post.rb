@@ -13,6 +13,10 @@ class Post
     else
       @artist.name
     end
+
+    def title
+      
+    end
   end
 
 
