@@ -6,7 +6,7 @@ class Song
     @genre = genre
   end
 
-  def artist_name(name)
+  def artist_name
     @artist = artist
   end
 
