@@ -12,8 +12,8 @@ class Artist
     @songs
   end
 
-  def add_song(title)
-    @songs << self.title
+  def add_song(song)
+    @songs << song
   end
 
 
