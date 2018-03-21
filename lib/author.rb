@@ -6,12 +6,12 @@ class Author
     @posts = []
   end
 
-    def add_post(post)
-      @posts << post
-      post.author = self
-      @@posts_count += 1
-    end
-    
+  def add_post(post)
+    @posts << post
+    post.author = self
+    @@posts_count += 1
+  end
+
   def posts
     @posts
   end
