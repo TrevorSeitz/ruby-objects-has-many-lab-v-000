@@ -11,7 +11,7 @@ class Post
     if @artist = nil
       nil
     else
-      @artist.title
+      @artist.name
     end
 
     def title
