@@ -7,14 +7,15 @@ class Artist
     @gerne = genre
     @songs = []
   end
+  
+  def add_song(song)
+    @songs << song
+  end
 
   def songs
     @songs
   end
 
-  def add_song(song)
-    @songs << song
-  end
 
 
 end
